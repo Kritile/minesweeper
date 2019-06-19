@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  margin: 11px;
+  border: 1px solid black
+}
+.col:active,.col:focus{
+  box-shadow: unset 1px 1px 1px black
+}
+p{
+  margin:0
+}
+.unvisible>p{
+  display: none
+}
+.visible>p{
+  display: inline;
+}
+.Field{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Row{
+  display: flex
+}
+.unvisible{
+  background: #8aa593;
+}
+.col_bomb[class~="visible"]{
+  background: url('./img/bomb.svg') no-repeat;
+  background-size: cover;
+}
+.col1th{
+  color:red;
+}
+.col2th{
+  color:purple;
+}
+.col3th{
+  color:rgb(0, 60, 255);
+}
+.col4th{
+  color:rgb(2, 173, 25);
+}
+.flag_true{
+  background: url('./img/flag.svg') no-repeat;
+  background-size: cover;
+}
