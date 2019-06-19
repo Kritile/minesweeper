@@ -14,7 +14,7 @@ function Generatop(width, height, bombs){
     for(let i = 0;i<=bombs;i++){
         let x = randInt(0,width-1)
         let y = randInt(0,height-1)
-        map[x][y] !== "b"?map[x][y] = "b":map[randInt(0,width-1)][randInt(0,height-1)]="b"
+        map[y][x] !== "b"?map[y][x] = "b":map[randInt(0,width-1)][randInt(0,height-1)]="b"
     }
     for(let i = 0;i<height;i++){
         for(let j=0;j<width;j++){

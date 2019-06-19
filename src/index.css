@@ -15,11 +15,12 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   font-size: 24px;
   margin: 11px;
-  border: 1px solid black
+  border: 1px solid black;
+  box-shadow: inset -4px -4px 0px 1px #828282;
 }
 .col:active,.col:focus{
   box-shadow: unset 1px 1px 1px black
@@ -44,7 +45,7 @@ p{
   display: flex
 }
 .unvisible{
-  background: #8aa593;
+  background: #afafaf
 }
 .col_bomb[class~="visible"]{
   background: url('./img/bomb.svg') no-repeat;
