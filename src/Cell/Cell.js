@@ -1,5 +1,4 @@
 import React from 'react';
-import App from '../App/App'
 class Cell extends React.Component{
     constructor(props){
         super(props);
